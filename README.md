@@ -42,24 +42,27 @@ Month-over-Month graph shows revenue and units trends, with optional target comp
 - Comparing sales vs. targets identifies gaps and opportunities.
 
 ## Project Structure
-Sales_Dashboard_Project/
-│
+E-commerce-Sales-Performance-Dashboard/
+│g
 ├─ data/
 │    ├─ raw/
-│    │    └─ sales_raw.csv             
+│    │    └─ Online Retail.xlsx
 │    └─ processed/
-│         └─ sales_processed.csv      
+│         ├─ monthly_summary.csv
+│         └─ online_retail_cleaned.csv
+│
 ├─ images/
-│    └─ dashboard_screenshot.png       
+│    └─ dashboard_screenshot.png     
 │
 ├─ notebooks/
-│    └─ data_cleaning.ipynb           
+│    └─ data_cleaning_and_preparation.ipynb
 │
-├─ powerbi/ 
-│   └─ Sales_Dashboard.pbix        
-│                              
-├─ README.md                           
-└─ requirements.txt     
+├─ powerbi/
+│    └─ Sales_Dashboard.pbix
+│
+├─ venv/                               
+├─ README.md
+└─ requirements.txt
 
 ## Visualization
 ![Dashboard Screenshot](images/dashboard_screenshot.png)
