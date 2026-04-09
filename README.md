@@ -62,9 +62,8 @@ Additionally, a monthly trend analysis visual shows revenue and units evolution 
 
 
 ## Visualization
-<p align="center">
-  <img src="images/dashboard_screenshot.png" width="900"/>
-</p>
+
+![Dashboard Preview](images/dashboard_screenshot.png)
 
 ## How to Use
 1. Open `powerbi/Sales_Dashboard.pbix` in Power BI Desktop.  
